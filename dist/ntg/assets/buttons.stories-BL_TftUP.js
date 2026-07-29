@@ -1,8 +1,5 @@
 import{n as e}from"./chunk-BVpWp9h4.js";var t=e((()=>{})),n,r,i;e((()=>{t(),n={title:`CSS Components/Button`},r={render:()=>`
-  <style>
-    th { opacity: .3 }
-  </style>
-  <table>
+  <table class="story">
     <thead>
         <tr><th></th><th><code>(primary)</code></th><th><code>.button-secondary</code></th><th><code>.button-tertiary</code></th></tr>
     </thead>
@@ -55,10 +52,7 @@ import{n as e}from"./chunk-BVpWp9h4.js";var t=e((()=>{})),n,r,i;e((()=>{t(),n={t
   </table>
   `},r.parameters={...r.parameters,docs:{...r.parameters?.docs,source:{originalSource:`{
   render: () => /*html*/\`
-  <style>
-    th { opacity: .3 }
-  </style>
-  <table>
+  <table class="story">
     <thead>
         <tr><th></th><th><code>(primary)</code></th><th><code>.button-secondary</code></th><th><code>.button-tertiary</code></th></tr>
     </thead>
@@ -112,10 +106,7 @@ import{n as e}from"./chunk-BVpWp9h4.js";var t=e((()=>{})),n,r,i;e((()=>{t(),n={t
   \`
 }`,...r.parameters?.docs?.source}}},r.parameters={...r.parameters,docs:{...r.parameters?.docs,source:{originalSource:`{
   render: () => /*html*/\`
-  <style>
-    th { opacity: .3 }
-  </style>
-  <table>
+  <table class="story">
     <thead>
         <tr><th></th><th><code>(primary)</code></th><th><code>.button-secondary</code></th><th><code>.button-tertiary</code></th></tr>
     </thead>

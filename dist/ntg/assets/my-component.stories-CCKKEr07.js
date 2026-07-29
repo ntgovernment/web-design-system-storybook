@@ -1,10 +1,10 @@
-import{n as e}from"./chunk-BVpWp9h4.js";import{i as t,n,r,t as i}from"./squizStoryRenderer-DSARXh3x.js";var a,o=e((()=>{a={main:async({text:e=`Hello World!`,variant:t=`default`}={})=>`
+import{n as e}from"./chunk-BVpWp9h4.js";import{n as t,t as n}from"./squizStoryRenderer-mGPdhelI.js";import{n as r,t as i}from"./squizInfo.mock-x2sHGyES.js";var a,o=e((()=>{a={main:async({text:e=`Hello World!`,variant:t=`default`}={})=>`
       <div class="my-component${t&&t!==`default`?` my-component--${t}`:``}">
         <div class="my-component__text">
           ${e}
         </div>
       </div>
-    `}})),s,c,l,u,d,f,p,m,h;await e((async()=>{i(),r(),o(),s=n(a.main),t(),c={title:`dxp/My Component`},l={text:`Hello World!`},u=await a.main(l),d={render:e=>s(e),args:l,argTypes:{text:{control:`text`},variant:{control:`text`}},parameters:{docs:{source:{code:u,language:`html`,type:`code`}}}},f={text:`I'm Special!`,variant:`special`},p=await a.main(f),m={render:()=>s(f),parameters:{docs:{source:{code:p,language:`html`,type:`code`}}}},d.parameters={...d.parameters,docs:{...d.parameters?.docs,source:{originalSource:`{
+    `}})),s,c,l,u,d,f,p,m,h;await e((async()=>{n(),i(),o(),s=t(a.main),r(),c={title:`dxp/My Component`},l={text:`Hello World!`},u=await s.markup(l),d={render:e=>s(e),args:l,argTypes:{text:{control:`text`},variant:{control:`text`}},parameters:{docs:{source:{code:u,language:`html`,type:`code`}}}},f={text:`I'm Special!`,variant:`special`},p=await s.markup(f),m={render:()=>s(f),parameters:{docs:{source:{code:p,language:`html`,type:`code`}}}},d.parameters={...d.parameters,docs:{...d.parameters?.docs,source:{originalSource:`{
   render: args => squiz(args),
   args: defaultArgs,
   argTypes: {
