@@ -67,3 +67,4 @@ import{n as e}from"./chunk-BVpWp9h4.js";import{n as t,t as n}from"./squizStoryRe
     }
   }
 }`,...m.parameters?.docs?.source}}},h=[`Default`,`Special`]}))();export{d as Default,m as Special,h as __namedExportsOrder,c as default};
+//# sourceMappingURL=my-component.stories-CCKKEr07.js.map
