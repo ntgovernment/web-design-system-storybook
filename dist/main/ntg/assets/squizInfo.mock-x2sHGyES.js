@@ -1,0 +1,2 @@
+import{n as e}from"./chunk-BVpWp9h4.js";function t(e={}){return{...e,ctx:{...e.ctx||{}},env:n,fns:{resolveUri:async t=>Promise.resolve(e?.mock?.resolveUri?.(t)??r),resolveMatrixAssetById:async(t,n)=>Promise.resolve(e?.mock?.resolveMatrixAssetById?.(t,n)??r),resolveMatrixAssetByUrl:async(t,n)=>Promise.resolve(e?.mock?.resolveMatrixAssetByUrl?.(t,n)??r)}}}var n,r,i=e((()=>{n={BASE_URL:`./`,DEV:!1,MODE:`production`,PROD:!0,SSR:!1,STORYBOOK:`true`},r={ok:!0,data:`default-mock-response`}}));export{t as n,i as t};
+//# sourceMappingURL=squizInfo.mock-x2sHGyES.js.map
