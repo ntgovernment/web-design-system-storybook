@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Redirecting to Storybook</title>
+  <link rel="stylesheet" href="./main/ntg/iframe.css">
+</head>
+<body>
+  <h1>Storybook Builds</h1>
+  <ul>
+    <li><a href="./main/ntg/" data-redirect="5000">main/ntg</a></li>
+    <li><a href="./dev/ntg/">dev/ntg</a></li>
+  </ul>
+  <div id="redirect-container"></div>
+  <script>
+    const link = document.querySelector('a[data-redirect]');
+    if (link) {
+      const delay = parseInt(link.getAttribute('data-redirect'), 10);
+      const url = link.href;
+      const container = document.getElementById('redirect-container');
+      let timeoutId;
+
+      const doRedirect = () => {
+        console.log(url)
+        window.location.href = url;
+      };
+
+      const cancelRedirect = () => {
+        clearTimeout(timeoutId);
+        container.innerHTML = '<p>Redirect cancelled</p>';
+      };
+
+      if (delay > 0) {
+        container.innerHTML = `
+          <p>Redirecting to <code>${url}</code> in ${delay}ms...</p>
+          <button id="cancel-redirect">Cancel</button>
+        `;
+        document.getElementById('cancel-redirect').addEventListener('click', cancelRedirect);
+        timeoutId = setTimeout(doRedirect, delay);
+      } else {
+        doRedirect();
+      }
+    }
+  </script>
+</body>
+</html>
