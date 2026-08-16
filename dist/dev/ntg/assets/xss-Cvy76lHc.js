@@ -1,0 +1,2 @@
+import{n as e}from"./chunk-BVpWp9h4.js";function t(e){let t={"&":`&amp;`,"<":`&lt;`,">":`&gt;`,'"':`&quot;`,"'":`&#039;`};return String(e??``).replace(/[&<>"']/g,e=>t[e])}function n(e){let t=String(e??``);return/^(javascript|data|vbscript):/i.test(t.trim())?`#invalid-protocol`:encodeURI(t)}var r=e((()=>{}));export{n,r,t};
+//# sourceMappingURL=xss-Cvy76lHc.js.map

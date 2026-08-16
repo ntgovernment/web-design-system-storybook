@@ -1,0 +1,2 @@
+import{a as e,n as t}from"./chunk-BVpWp9h4.js";import{t as n}from"./react-vYze_cjT.js";function r(e){let t=a.useContext(s);return a.useMemo(function(){return typeof e==`function`?e(t):{...t,...e}},[t,e])}function i(e){let t;return t=e.disableParentContext?typeof e.components==`function`?e.components(o):e.components||o:r(e.components),a.createElement(s.Provider,{value:t},e.children)}var a,o,s,c=t((()=>{a=e(n(),1),o={},s=a.createContext(o)})),l=t((()=>{c()}));export{r as i,i as n,c as r,l as t};
+//# sourceMappingURL=react-yEOR_2IK.js.map
