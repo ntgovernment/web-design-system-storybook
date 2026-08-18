@@ -1,4 +1,4 @@
-import{n as e}from"./chunk-BVpWp9h4.js";import{n as t,t as n}from"./layoutProperties-y59oom29.js";var r,i,a,o,s,c;e((()=>{t(),r={title:`CSS Components/Layout`,parameters:{layout:`fullscreen`}},i=n({containerModifiers:{variant:`alt-background`}}),a=n({containerModifiers:{verticalSpace:`spacious`}}),o=n({containerModifiers:{fullwidthBackground:!0,variant:`alt-background`,verticalSpace:`spacious`}}),s={render:()=>`
+import{n as e}from"./chunk-BVpWp9h4.js";import{n as t,r as n}from"./component.helper-D3WXhhhy.js";var r,i,a,o,s,c;e((()=>{n(),r={title:`CSS Components/Layout`,parameters:{layout:`fullscreen`}},i=t({containerModifiers:{variant:`alt-background`}}),a=t({containerModifiers:{verticalSpace:`spacious`}}),o=t({containerModifiers:{fullwidthBackground:!0,variant:`alt-background`,verticalSpace:`spacious`}}),s={render:()=>`
     <p style="opacity:.5;text-align:center"><code>.content-area</code> is the node that page content goes into.</p>
     <br>
     <div class="content-area">
@@ -111,4 +111,4 @@ import{n as e}from"./chunk-BVpWp9h4.js";import{n as t,t as n}from"./layoutProper
     </div>
     \`
 }`,...s.parameters?.docs?.source}}},c=[`Default`]}))();export{s as Default,c as __namedExportsOrder,r as default};
-//# sourceMappingURL=layout.stories-QwA74FeS.js.map
+//# sourceMappingURL=layout.stories-CHX5_aDS.js.map
