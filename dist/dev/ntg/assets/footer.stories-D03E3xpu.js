@@ -26,8 +26,11 @@ ${t}
             ${u(r)}
             ${d(i)}
         </div>
-    </footer>`}}})),k,A,j,M,N=e((()=>{k=[{menuTitle:`Information and services`,menuType:`bullet`,menuItems:[{url:`#!https://nt.gov.au/leisure`,title:`Art, sport and leisure`},{url:`#!https://nt.gov.au/marine`,title:`Boating, fishing and marine`},{url:`#!https://nt.gov.au/industry`,title:`Business and industry`},{url:`#!https://nt.gov.au/community`,title:`Community support and care`},{url:`#!https://nt.gov.au/driving`,title:`Driving and transport`},{url:`#!https://nt.gov.au/learning`,title:`Education and learning`},{url:`#!https://nt.gov.au/emergency`,title:`Emergency and safety`},{url:`#!https://nt.gov.au/employ`,title:`Employment, money and taxes`},{url:`#!https://nt.gov.au/environment`,title:`Environment`},{url:`#!https://nt.gov.au/wellbeing`,title:`Health and wellbeing`},{url:`#!https://nt.gov.au/property`,title:`Housing, property and land`},{url:`#!https://nt.gov.au/law`,title:`Your rights, crime and the law`}]},{menuTitle:`Find out more`,menuType:`bullet`,menuItems:[{url:`#!https://nt.gov.au/about-government`,title:`About government`},{url:`#!https://haveyoursay.nt.gov.au`,title:`Public consultations`,target:`_blank`},{url:`#!https://nt.gov.au/nt-public-holidays`,title:`NT public holidays`},{url:`#!http://newsroom.nt.gov.au`,title:`Media releases`,target:`_blank`},{url:`#!https://nt.gov.au/community/grants-and-volunteers/grants/grants-directory`,title:`Government grants`},{url:`#!https://nt.gov.au/about-government/government-priorities`,title:`Government priorities`}]},{menuTitle:`Connect with us`,menuType:`icon`,menuItems:[{url:`#!https://www.facebook.com/ntgovernment/`,title:`Facebook`,icon:`DETECT_BRAND_ICON`},{url:`#!https://www.linkedin.com/company/ntgovernment`,title:`LinkedIn`,icon:`DETECT_BRAND_ICON`},{url:`#!https://www.youtube.com/user/NTGovt`,title:`YouTube`,icon:`DETECT_BRAND_ICON`},{url:`#!https://www.instagram.com/ntgovernment`,title:`Instagram`,icon:`DETECT_BRAND_ICON`},{url:`#!https://haveyoursay.nt.gov.au`,title:`Have your say`,icon:`DETECT_BRAND_ICON`}]}],A=[{url:`#!https://nt.gov.au/page/copyright-and-disclaimer`,title:`Copyright, disclaimer and privacy`},{url:`#!https://nt.gov.au/law/rights/freedom-of-information`,title:`Freedom of information`},{url:`#!https://nt.gov.au/page/interpreter-services`,title:`Interpreter services`},{url:`#!https://nt.gov.au/page/accessibility`,title:`Accessibility`},{url:`#!https://nt.gov.au/page/sitemap`,title:`Site map`},{url:`#!https://nt.gov.au/contacts`,title:`Contacts`},{url:`#!https://nt.gov.au/contacts/northern-territory-government-staff-systems-remotely`,title:`NTG staff systems`}],j=`The Northern Territory Government acknowledges the Traditional Owners of the Northern Territory and recognises their continuing cultural and spiritual connections to the lands, waters and communities. We pay our respects to all Aboriginal and Torres Strait Islander people and their cultures, their Elders past and present, and to future generations.`,M={menus:k,ancillary:A,finalText:j}})),P,F,I,L,R;await e((async()=>{i(),c(),O(),N(),P=r(D.main),F={title:`dxp/Footer`,parameters:{layout:`fullscreen`}},I=await P.markup(M),L={render:e=>P(e),args:M,argTypes:{menus:{control:`object`},ancillary:{control:`object`},finalText:{control:`text`}},parameters:{docs:{source:{code:I,language:`html`,type:`code`}}}},L.parameters={...L.parameters,docs:{...L.parameters?.docs,source:{originalSource:`{
-  render: args => squiz(args),
+    </footer>`}}})),k,A,j,M,N=e((()=>{k=[{menuTitle:`Information and services`,menuType:`bullet`,menuItems:[{url:`#`,title:`Art, sport and leisure`},{url:`#`,title:`Boating, fishing and marine`},{url:`#`,title:`Business and industry`},{url:`#`,title:`Community support and care`},{url:`#`,title:`Driving and transport`},{url:`#`,title:`Education and learning`},{url:`#`,title:`Emergency and safety`},{url:`#`,title:`Employment, money and taxes`},{url:`#`,title:`Environment`},{url:`#`,title:`Health and wellbeing`},{url:`#`,title:`Housing, property and land`},{url:`#`,title:`Your rights, crime and the law`}]},{menuTitle:`Find out more`,menuType:`bullet`,menuItems:[{url:`#`,title:`About government`},{url:`#`,title:`Public consultations`,target:`_blank`},{url:`#`,title:`NT public holidays`},{url:`#`,title:`Media releases`,target:`_blank`},{url:`#`,title:`Government grants`},{url:`#`,title:`Government priorities`}]},{menuTitle:`Connect with us`,menuType:`icon`,menuItems:[{url:`#`,title:`Facebook`,icon:`DETECT_BRAND_ICON`},{url:`#`,title:`LinkedIn`,icon:`DETECT_BRAND_ICON`},{url:`#`,title:`YouTube`,icon:`DETECT_BRAND_ICON`},{url:`#`,title:`Instagram`,icon:`DETECT_BRAND_ICON`},{url:`#`,title:`Have your say`,icon:`DETECT_BRAND_ICON`}]}],A=[{url:`#`,title:`Copyright, disclaimer and privacy`},{url:`#`,title:`Freedom of information`},{url:`#`,title:`Interpreter services`},{url:`#`,title:`Accessibility`},{url:`#`,title:`Site map`},{url:`#`,title:`Contacts`},{url:`#`,title:`NTG staff systems`}],j=`The Northern Territory Government acknowledges the Traditional Owners of the Northern Territory and recognises their continuing cultural and spiritual connections to the lands, waters and communities. We pay our respects to all Aboriginal and Torres Strait Islander people and their cultures, their Elders past and present, and to future generations.`,M={menus:k,ancillary:A,finalText:j}}));function P(){document.body.removeEventListener(`click`,F),document.body.addEventListener(`click`,F)}function F(e){e.preventDefault()}var I,L,R,z,B;await e((async()=>{i(),c(),O(),N(),I=r(D.main),L={title:`dxp/Footer`,parameters:{layout:`fullscreen`}},R=await I.markup(M),z={render:e=>(requestAnimationFrame(P),I(e)),args:M,argTypes:{menus:{control:`object`},ancillary:{control:`object`},finalText:{control:`text`}},parameters:{docs:{source:{code:R,language:`html`,type:`code`}}}},z.parameters={...z.parameters,docs:{...z.parameters?.docs,source:{originalSource:`{
+  render: args => {
+    requestAnimationFrame(supressClick);
+    return squiz(args);
+  },
   args: defaultArgs,
   argTypes: {
     menus: {
@@ -49,8 +52,11 @@ ${t}
       }
     }
   }
-}`,...L.parameters?.docs?.source}}},L.parameters={...L.parameters,docs:{...L.parameters?.docs,source:{originalSource:`{
-  render: args => squiz(args),
+}`,...z.parameters?.docs?.source}}},z.parameters={...z.parameters,docs:{...z.parameters?.docs,source:{originalSource:`{
+  render: args => {
+    requestAnimationFrame(supressClick);
+    return squiz(args);
+  },
   args: defaultArgs,
   argTypes: {
     menus: {
@@ -72,5 +78,5 @@ ${t}
       }
     }
   }
-}`,...L.parameters?.docs?.source}}},R=[`Default`]}))();export{L as Default,R as __namedExportsOrder,F as default};
-//# sourceMappingURL=footer.stories-dm1_X6uw.js.map
+}`,...z.parameters?.docs?.source}}},B=[`Default`]}))();export{z as Default,B as __namedExportsOrder,L as default};
+//# sourceMappingURL=footer.stories-D03E3xpu.js.map
