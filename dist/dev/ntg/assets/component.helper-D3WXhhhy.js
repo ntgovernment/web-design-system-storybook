@@ -1,2 +1,0 @@
-import{n as e}from"./chunk-BVpWp9h4.js";function t(e={}){let t=n(e);return t.length?`data-cm="${t.join(`:`)}"`:``}function n(e={}){let{containerModifiers:{variant:t,verticalSpace:n,fullwidthBackground:r}={}}=e;return[t,n,r?`fullwidth-background`:``].filter(Boolean)}var r,i=e((()=>{r=(e,n)=>[`data-component="${e}"`,t(n)].filter(Boolean).join(` `)}));export{t as n,i as r,r as t};
-//# sourceMappingURL=component.helper-D3WXhhhy.js.map
