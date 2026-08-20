@@ -1,0 +1,2 @@
+import{n as e}from"./chunk-BVpWp9h4.js";var t,n=e((()=>{t=(e,{componentCustomisation:{modifiers:t}={}})=>[`data-component="${e}"`,Array.isArray(t)&&t.length?`data-cm="${t.join(`|`)}"`:``].filter(Boolean).join(` `)}));export{n,t};
+//# sourceMappingURL=component.helper-Bbhtouok.js.map
