@@ -1,0 +1,2 @@
+import{n as e}from"./chunk-BVpWp9h4.js";function t(e,{componentCustomisation:{modifiers:t}={}}){return Array.isArray(t)||(t=[]),t=t.filter(Boolean),[`data-component="${e}"`,t.length?`data-cc="${t.join(`|`)}"`:``].filter(Boolean).join(` `)}function n(e={},t=[]){return e.componentCustomisation={...e.componentCustomisation||{},modifiers:[...e?.componentCustomisation?.modifiers??[],t]},e}var r=e((()=>{}));export{r as n,n as r,t};
+//# sourceMappingURL=component.helper-COp5GpYY.js.map
