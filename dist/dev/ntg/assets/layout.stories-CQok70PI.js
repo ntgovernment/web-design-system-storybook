@@ -1,4 +1,4 @@
-import{n as e}from"./chunk-BVpWp9h4.js";import{n as t,t as n}from"./component.helper-COp5GpYY.js";var r,i,a,o,s,c;e((()=>{t(),r={title:`CSS Components/Layout`,parameters:{noContentArea:!0}},i=n(``,{componentCustomisation:{modifiers:[`background: alt`]}}),a=n(``,{componentCustomisation:{modfiers:[`spacious`]}}),o=n(``,{componentCustomisation:{modifiers:[`fullwidth background`,`background: alt`,`spacious`]}}),s={render:()=>`
+import{n as e}from"./chunk-BVpWp9h4.js";import{n as t,t as n}from"./component.helper-COp5GpYY.js";var r,i,a,o,s,c,l;e((()=>{t(),r={title:`CSS Components/Layout`,parameters:{noContentArea:!0}},i=n(``,{componentCustomisation:{modifiers:[`background: alt`]}}),a=n(``,{componentCustomisation:{modfiers:[`spacious`]}}),o=n(``,{componentCustomisation:{modifiers:[`fullwidth background`,`background: alt`,`spacious`]}}),s={render:()=>`
     <p style="opacity:.5;text-align:center"><code>.content-area</code> is the node that page content goes into.</p>
     <br>
     <div class="content-area">
@@ -34,8 +34,47 @@ import{n as e}from"./chunk-BVpWp9h4.js";import{n as t,t as n}from"./component.he
             this has <code>${o}</code>
         </div>
     </div>
+    `},c={render:()=>`
+    <style>
+        .with-sidebar {
+            outline: 1px dotted magenta;
+            * {
+                outline: 1px dotted cyan;
+            }
+        }
+    </style>
+    
+    <p style="opacity:.5;text-align:center">
+        The following demonstrates sidebar layout, with multiple content types all aligning.
+    </p>
+
+    <div class="content-area with-sidebar">
+        <div class="content-area">
+            text node
+            <p>p tag</p>
+            <div data-component>[data-component]</div>
+            <div class="content">.content</div>
+            <p>Structure is as follows</p>
+            <pre><code>
+.content-area.with-sidebar
+    > .content-area
+        // normal .content-area rules apply
+    > .sidebar.content-area
+        // normal .content-area rules apply
+            </code></pre>
+            <div data-component data-cc="fullwidth background|background: alt">
+                should not take on full width style
+            </div>
+        </div>
+        <div class="sidebar content-area">
+            text node
+            <p>p tag</p>
+            <div data-component>[data-component]</div>
+            <div class="content">.content</div>
+        </div>
+    </div>
     `},s.parameters={...s.parameters,docs:{...s.parameters?.docs,source:{originalSource:`{
-  render: () => \`
+  render: () => /*html*/\`
     <p style="opacity:.5;text-align:center"><code>.content-area</code> is the node that page content goes into.</p>
     <br>
     <div class="content-area">
@@ -72,8 +111,49 @@ import{n as e}from"./chunk-BVpWp9h4.js";import{n as t,t as n}from"./component.he
         </div>
     </div>
     \`
-}`,...s.parameters?.docs?.source}}},s.parameters={...s.parameters,docs:{...s.parameters?.docs,source:{originalSource:`{
-  render: () => \`
+}`,...s.parameters?.docs?.source}}},c.parameters={...c.parameters,docs:{...c.parameters?.docs,source:{originalSource:`{
+  render: () => /*html*/\`
+    <style>
+        .with-sidebar {
+            outline: 1px dotted magenta;
+            * {
+                outline: 1px dotted cyan;
+            }
+        }
+    </style>
+    
+    <p style="opacity:.5;text-align:center">
+        The following demonstrates sidebar layout, with multiple content types all aligning.
+    </p>
+
+    <div class="content-area with-sidebar">
+        <div class="content-area">
+            text node
+            <p>p tag</p>
+            <div data-component>[data-component]</div>
+            <div class="content">.content</div>
+            <p>Structure is as follows</p>
+            <pre><code>
+.content-area.with-sidebar
+    > .content-area
+        // normal .content-area rules apply
+    > .sidebar.content-area
+        // normal .content-area rules apply
+            </code></pre>
+            <div data-component data-cc="fullwidth background|background: alt">
+                should not take on full width style
+            </div>
+        </div>
+        <div class="sidebar content-area">
+            text node
+            <p>p tag</p>
+            <div data-component>[data-component]</div>
+            <div class="content">.content</div>
+        </div>
+    </div>
+    \`
+}`,...c.parameters?.docs?.source}}},s.parameters={...s.parameters,docs:{...s.parameters?.docs,source:{originalSource:`{
+  render: () => /*html*/\`
     <p style="opacity:.5;text-align:center"><code>.content-area</code> is the node that page content goes into.</p>
     <br>
     <div class="content-area">
@@ -110,5 +190,46 @@ import{n as e}from"./chunk-BVpWp9h4.js";import{n as t,t as n}from"./component.he
         </div>
     </div>
     \`
-}`,...s.parameters?.docs?.source}}},c=[`Default`]}))();export{s as Default,c as __namedExportsOrder,r as default};
-//# sourceMappingURL=layout.stories-BoWfYWqI.js.map
+}`,...s.parameters?.docs?.source}}},c.parameters={...c.parameters,docs:{...c.parameters?.docs,source:{originalSource:`{
+  render: () => /*html*/\`
+    <style>
+        .with-sidebar {
+            outline: 1px dotted magenta;
+            * {
+                outline: 1px dotted cyan;
+            }
+        }
+    </style>
+    
+    <p style="opacity:.5;text-align:center">
+        The following demonstrates sidebar layout, with multiple content types all aligning.
+    </p>
+
+    <div class="content-area with-sidebar">
+        <div class="content-area">
+            text node
+            <p>p tag</p>
+            <div data-component>[data-component]</div>
+            <div class="content">.content</div>
+            <p>Structure is as follows</p>
+            <pre><code>
+.content-area.with-sidebar
+    > .content-area
+        // normal .content-area rules apply
+    > .sidebar.content-area
+        // normal .content-area rules apply
+            </code></pre>
+            <div data-component data-cc="fullwidth background|background: alt">
+                should not take on full width style
+            </div>
+        </div>
+        <div class="sidebar content-area">
+            text node
+            <p>p tag</p>
+            <div data-component>[data-component]</div>
+            <div class="content">.content</div>
+        </div>
+    </div>
+    \`
+}`,...c.parameters?.docs?.source}}},l=[`Default`,`WithSidebar`]}))();export{s as Default,c as WithSidebar,l as __namedExportsOrder,r as default};
+//# sourceMappingURL=layout.stories-CQok70PI.js.map
