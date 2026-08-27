@@ -10,7 +10,7 @@ import{n as e}from"./chunk-BVpWp9h4.js";import{n as t,t as n}from"./component.he
           <div class="accordion-item__content" data-sq-field="items[${t}].content">${l}</div>
         </div>
       </div>`}).join(``);return`
-    <div ${n(`accordion`,e)}>
+    <div ${n(`accordion`,e)} class="accordion">
       ${c}
       <div class="accordion__items">
         ${l}
@@ -157,4 +157,4 @@ import{n as e}from"./chunk-BVpWp9h4.js";import{n as t,t as n}from"./component.he
     }
   }
 }`,...E.parameters?.docs?.source}}},D=[`Basic`,`WithToggleAll`,`WithUnpublishedItem`,`RichContent`]}))();export{_ as Basic,E as RichContent,b as WithToggleAll,C as WithUnpublishedItem,D as __namedExportsOrder,m as default};
-//# sourceMappingURL=accordion.stories-1yvNrVBd.js.map
+//# sourceMappingURL=accordion.stories-Bm7L_UbM.js.map
