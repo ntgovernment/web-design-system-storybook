@@ -1,8 +1,6 @@
-import{n as e}from"./chunk-BVpWp9h4.js";import{a as t,l as n}from"./directive-helpers-DXeJie5u.js";import{n as r,t as i}from"./squizStoryRenderer-4zIdV6yt.js";import{n as a,t as o}from"./squizInfo.mock-D4VTpLG1.js";function s(e,t){return async function(n){try{let r=await t.fns.resolveUri(`matrix-asset://${e}/${n}`);if(`ok`in r&&(`data`in r||`reason`in r))return r;if(r!==void 0)return{ok:!0,data:r};throw Error(`Unknown response`,{cause:r})}catch(e){let t=e||{message:`Unknown Error`};return{ok:!1,data:null,error:t,reason:t.cause||`Unknown reason`}}}}var c=e((()=>{})),l,u=e((()=>{c(),l={async main({title:e=`On this page`,advanced:{hn:t=`h2`,area:n=`.content-area`}},r){let{ctx:{assetId:i},fns:a,editor:o,env:{dxpApiIdentifier:c}={}}=r;if(!c)return`<span data-anchor-nav>${o?``:`<!--`}
-                <code>dxpApiIdentifier</code> must be set in the DXP Components Set.
-            ${o?``:`-->`}</div>`;let l=s(c,r),u=`anchor_nav`,d=await l(i);return`${d?.data?.metadata?.sidebar_items?.includes(u)?`<span data-anchor-nav='${JSON.stringify({title:e,hn:t,area:n})}'></span>`:`<span data-anchor-nav>${o?``:`<!--`}
-                ${u}: disabled ${JSON.stringify(d??null)}
-             ${o?``:`-->`}</div>`}`}}})),d,f,p,m=e((()=>{d=`On this page`,f={hn:`h2`,area:`.content-area`},p={title:d,advanced:f}}));function h(e=[`anchor_nav`]){return a({ctx:{assetId:`5001`},env:{dxpApiIdentifier:`mock`},mock:{resolveUri:()=>({ok:!0,data:{metadata:{sidebar_items:e}}})}})}function g(e,t){return requestAnimationFrame(()=>{window.__ntgds__?.run?.(`anchor-nav`)}),n`
+import{n as e}from"./chunk-BVpWp9h4.js";import{a as t,l as n}from"./directive-helpers-DXeJie5u.js";import{n as r,t as i}from"./squizStoryRenderer-4zIdV6yt.js";import{n as a,t as o}from"./squizInfo.mock-D4VTpLG1.js";import{n as s,t as c}from"./createAssetResolver-DSFNg-TS.js";var l,u=e((()=>{s(),l={async main({title:e=`On this page`,advanced:{hn:t=`h2`,area:n=`.content-area`}},r){let{ctx:{assetId:i},fns:a,editor:o,env:{MATRIX_API_IDENTIFIER:s}={}}=r;if(!s)return`<span data-anchor-nav>${o?``:`<!--`}
+                <code>MATRIX_API_IDENTIFIER</code> must be set in the DXP Components Set.
+            ${o?``:`-->`}</div>`;let l=c(s,r),u=`anchor_nav`;return`${(await l(i))?.data?.metadata?.sidebar_items?.includes(u)?`<span data-anchor-nav='${JSON.stringify({title:e,hn:t,area:n})}'></span>`:`<!-- ${u}: disabled -->`}`}}})),d,f,p,m=e((()=>{d=`On this page`,f={hn:`h2`,area:`.content-area`},p={title:d,advanced:f}}));function h(e=[`anchor_nav`]){return a({ctx:{assetId:`5001`},env:{MATRIX_API_IDENTIFIER:`mock`},mock:{resolveUri:()=>({ok:!0,data:{metadata:{sidebar_items:e}}})}})}function g(e,t){return requestAnimationFrame(()=>{window.__ntgds__?.run?.(`anchor-nav`)}),n`
     <article class="content-area">
       ${_(e,t)}
       <p>This preview simulates a content page with multiple section headings.</p>
@@ -74,4 +72,4 @@ import{n as e}from"./chunk-BVpWp9h4.js";import{a as t,l as n}from"./directive-he
     }
   }
 }`,...S.parameters?.docs?.source}}},C=[`Default`,`NotOptedIn`]}))();export{b as Default,S as NotOptedIn,C as __namedExportsOrder,v as default};
-//# sourceMappingURL=anchor-nav.stories-DVwyjVF1.js.map
+//# sourceMappingURL=anchor-nav.stories-B1vxWLKO.js.map

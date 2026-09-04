@@ -1,0 +1,2 @@
+import{n as e}from"./chunk-BVpWp9h4.js";function t(e,t){return async function(n){try{let r=await t.fns.resolveUri(`matrix-asset://${e}/${n}`);if(`ok`in r&&(`data`in r||`reason`in r))return r;if(r!==void 0)return{ok:!0,data:r};throw Error(`Unknown response`,{cause:r})}catch(e){let t=e||{message:`Unknown Error`};return{ok:!1,data:null,error:t,reason:t.cause||`Unknown reason`}}}}var n=e((()=>{}));export{n,t};
+//# sourceMappingURL=createAssetResolver-DSFNg-TS.js.map
