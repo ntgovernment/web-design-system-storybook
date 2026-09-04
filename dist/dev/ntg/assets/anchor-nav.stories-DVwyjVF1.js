@@ -2,7 +2,7 @@ import{n as e}from"./chunk-BVpWp9h4.js";import{a as t,l as n}from"./directive-he
                 <code>dxpApiIdentifier</code> must be set in the DXP Components Set.
             ${o?``:`-->`}</div>`;let l=s(c,r),u=`anchor_nav`,d=await l(i);return`${d?.data?.metadata?.sidebar_items?.includes(u)?`<span data-anchor-nav='${JSON.stringify({title:e,hn:t,area:n})}'></span>`:`<span data-anchor-nav>${o?``:`<!--`}
                 ${u}: disabled ${JSON.stringify(d??null)}
-             ${o?``:`-->`}</div>`}`}}})),d,f,p,m=e((()=>{d=`On this page`,f=`.content-area`,p={title:d,hn:`h2`,area:f}}));function h(e=[`anchor_nav`]){return a({ctx:{assetId:`5001`},env:{dxpApiIdentifier:`mock`},mock:{resolveUri:()=>({ok:!0,data:{metadata:{sidebar_items:e}}})}})}function g(e,t){return requestAnimationFrame(()=>{window.__ntgds__?.run?.(`anchor-nav`)}),n`
+             ${o?``:`-->`}</div>`}`}}})),d,f,p,m=e((()=>{d=`On this page`,f={hn:`h2`,area:`.content-area`},p={title:d,advanced:f}}));function h(e=[`anchor_nav`]){return a({ctx:{assetId:`5001`},env:{dxpApiIdentifier:`mock`},mock:{resolveUri:()=>({ok:!0,data:{metadata:{sidebar_items:e}}})}})}function g(e,t){return requestAnimationFrame(()=>{window.__ntgds__?.run?.(`anchor-nav`)}),n`
     <article class="content-area">
       ${_(e,t)}
       <p>This preview simulates a content page with multiple section headings.</p>
@@ -74,4 +74,4 @@ import{n as e}from"./chunk-BVpWp9h4.js";import{a as t,l as n}from"./directive-he
     }
   }
 }`,...S.parameters?.docs?.source}}},C=[`Default`,`NotOptedIn`]}))();export{b as Default,S as NotOptedIn,C as __namedExportsOrder,v as default};
-//# sourceMappingURL=anchor-nav.stories-5go245Dr.js.map
+//# sourceMappingURL=anchor-nav.stories-DVwyjVF1.js.map
