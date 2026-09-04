@@ -1,4 +1,4 @@
-import{n as e}from"./chunk-BVpWp9h4.js";import{n as t,t as n}from"./component.helper-D0vBjeOt.js";import{n as r,t as i}from"./squizStoryRenderer-4zIdV6yt.js";import{n as a,t as o}from"./squizInfo.mock-x2sHGyES.js";var s,c=e((()=>{t(),s={main:async(e={})=>{let{text:t=`Hello World!`,variant:r=`default`}=e,i=r&&r!==`default`?` class="my-component--${r}"`:``;return`
+import{n as e}from"./chunk-BVpWp9h4.js";import{n as t,t as n}from"./component.helper-D0vBjeOt.js";import{n as r,t as i}from"./squizStoryRenderer-4zIdV6yt.js";import{n as a,t as o}from"./squizInfo.mock-D4VTpLG1.js";var s,c=e((()=>{t(),s={main:async(e={})=>{let{text:t=`Hello World!`,variant:r=`default`}=e,i=r&&r!==`default`?` class="my-component--${r}"`:``;return`
       <div ${n(`my-component`,e)}${i}>
         <div class="my-component__text">
           ${t}
@@ -67,4 +67,4 @@ import{n as e}from"./chunk-BVpWp9h4.js";import{n as t,t as n}from"./component.he
     }
   }
 }`,...g.parameters?.docs?.source}}},_=[`Default`,`Special`]}))();export{p as Default,g as Special,_ as __namedExportsOrder,u as default};
-//# sourceMappingURL=my-component.stories-BsR2vULx.js.map
+//# sourceMappingURL=my-component.stories-C-pU5fHe.js.map
