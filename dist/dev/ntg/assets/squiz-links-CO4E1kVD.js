@@ -1,0 +1,2 @@
+import{n as e}from"./chunk-BVpWp9h4.js";import{n as t,r as n}from"./xss-Cvy76lHc.js";function r(e){return{...i,...e,url:t(e.url||i.url),rel:e.target===`_blank`&&!e.assetId?`noopener noreferrer`:``,get attrs(){let{url:e,title:t,text:n,target:r,rel:i}=this,a=[`href=${e}`];return t&&t!==n&&a.push(`title=${t}`),r&&a.push(`target=${r}`),i&&a.push(`rel=${i}`),a.join(` `)}}}var i,a=e((()=>{n(),i={url:`#no-url-found`,text:`no text found`}}));export{a as n,r as t};
+//# sourceMappingURL=squiz-links-CO4E1kVD.js.map
