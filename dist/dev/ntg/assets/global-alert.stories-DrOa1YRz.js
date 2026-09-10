@@ -15,16 +15,14 @@ import{n as e}from"./chunk-BVpWp9h4.js";import{a as t}from"./directive-helpers-D
         ${e.alerts.map(c).join(`
 `)}
       </div>
-    </div>`:`<!-- no alerts set -->`}`}}})),p,m,h=e((()=>{p=[{alertType:`Critical`,title:`Global alert title`,message:`This alert provides important information for users. Please read this to understand how this may affect you. This might also contain a relevant actionLink to provide user with or just have <a href="#">Links in the message</a>.`,actionLink:{text:`More information`,url:`https://example.com/more-information`},dismissible:`No`},{alertType:`Warning`,title:`Global alert title`,message:`This alert provides important information for users. Please read this to understand how this may affect you. This might also contain a relevant actionLink to provide user with or just have <a href="#">Links in the message</a>.`,actionLink:{text:`More information`,url:`https://example.com/more-information`},dismissible:`Session`},{alertType:`Info`,title:`Global alert title`,message:`This alert provides important information for users. Please read this to understand how this may affect you. This might also contain a relevant actionLink to provide user with or just have <a href="#">Links in the message</a>.`,actionLink:{text:`More information`,url:`https://example.com/more-information`},dismissible:`Session`},{alertType:`Info-alt`,title:`Global alert title`,message:`This alert provides important information for users. Please read this to understand how this may affect you. This might also contain a relevant actionLink to provide user with or just have <a href="#">Links in the message</a>.`,actionLink:{text:`More information`,url:`https://example.com/more-information`},dismissible:`Local`}],m={alerts:p}})),g,_,v,y,b,x;await e((async()=>{r(),t(),f(),h(),g=n(d.main),_={title:`dxp components/Global Alert`,parameters:{noContentArea:!0,controls:{expanded:!0,sort:`requiredFirst`}}},v=await g.markup(m),y=()=>{sessionStorage.removeItem(`global-alerts`),localStorage.removeItem(`global-alerts`)},b={render:e=>(requestAnimationFrame(()=>{y(),window.__ntgds__?.run?.(`global-alert`)}),g({alerts:[e]})),args:{alertType:`info-alt`,title:`Interactive Story Alert`,message:`Hello`,actionLink:{url:`#!hello`,text:`Hello`},dismissible:`NO`},argTypes:{alertType:{control:`select`,options:[`Info`,`Warning`,`Critical`,`Info-alt`]},title:{control:`text`},message:{control:`text`},actionLink:{control:`object`,description:`SquizLink object: { text, url, target? }.`},dismissible:{control:`select`,options:[`NO`,`Session`,`Local`]}},parameters:{docs:{description:{story:`Info variant, with an inline link at the end of the message.`},source:{code:v,language:`html`,type:`code`}}}},b.parameters={...b.parameters,docs:{...b.parameters?.docs,source:{originalSource:`{
+    </div>`:`<!-- no alerts set -->`}`}}})),p,m,h=e((()=>{p=[{alertType:`Critical`,title:`Global alert title`,message:`This alert provides important information for users. Please read this to understand how this may affect you. This might also contain a relevant actionLink to provide user with or just have <a href="#">Links in the message</a>.`,actionLink:{text:`More information`,url:`https://example.com/more-information`},dismissible:`No`},{alertType:`Warning`,title:`Global alert title`,message:`This alert provides important information for users. Please read this to understand how this may affect you. This might also contain a relevant actionLink to provide user with or just have <a href="#">Links in the message</a>.`,actionLink:{text:`More information`,url:`https://example.com/more-information`},dismissible:`Session`},{alertType:`Info`,title:`Global alert title`,message:`This alert provides important information for users. Please read this to understand how this may affect you. This might also contain a relevant actionLink to provide user with or just have <a href="#">Links in the message</a>.`,actionLink:{text:`More information`,url:`https://example.com/more-information`},dismissible:`Session`},{alertType:`Info-alt`,title:`Global alert title`,message:`This alert provides important information for users. Please read this to understand how this may affect you. This might also contain a relevant actionLink to provide user with or just have <a href="#">Links in the message</a>.`,actionLink:{text:`More information`,url:`https://example.com/more-information`},dismissible:`Local`}],m={alerts:p}})),g,_,v,y,b,x;await e((async()=>{r(),t(),f(),h(),g=n(d.main),_={title:`dxp components/Global Alert`,parameters:{noContentArea:!0,controls:{expanded:!0,sort:`requiredFirst`}}},v=await g.markup(m),y=()=>{sessionStorage.removeItem(`global-alerts`),localStorage.removeItem(`global-alerts`)},b={render:e=>(requestAnimationFrame(()=>{y(),window.__ntgds__?.run?.(`global-alert`)}),g({alerts:[e,...m.alerts||[]]})),args:{alertType:`info-alt`,title:`Interactive Story Alert`,message:`Hello`,actionLink:{url:`#!hello`,text:`Hello`},dismissible:`NO`},argTypes:{alertType:{control:`select`,options:[`Info`,`Warning`,`Critical`,`Info-alt`]},title:{control:`text`},message:{control:`text`},actionLink:{control:`object`,description:`SquizLink object: { text, url, target? }.`},dismissible:{control:`select`,options:[`NO`,`Session`,`Local`]}},parameters:{docs:{description:{story:`Info variant, with an inline link at the end of the message.`},source:{code:v,language:`html`,type:`code`}}}},b.parameters={...b.parameters,docs:{...b.parameters?.docs,source:{originalSource:`{
   render: args => {
     requestAnimationFrame(() => {
       resetStore();
       window.__ntgds__?.run?.('global-alert');
     });
     const input = {
-      alerts: [args
-      // ...(defaultArgs.alerts || []),
-      ]
+      alerts: [args, ...(defaultArgs.alerts || [])]
     };
     return squiz(input);
   },
@@ -77,9 +75,7 @@ import{n as e}from"./chunk-BVpWp9h4.js";import{a as t}from"./directive-helpers-D
       window.__ntgds__?.run?.('global-alert');
     });
     const input = {
-      alerts: [args
-      // ...(defaultArgs.alerts || []),
-      ]
+      alerts: [args, ...(defaultArgs.alerts || [])]
     };
     return squiz(input);
   },
@@ -126,4 +122,4 @@ import{n as e}from"./chunk-BVpWp9h4.js";import{a as t}from"./directive-helpers-D
     }
   }
 }`,...b.parameters?.docs?.source}}},x=[`Default`]}))();export{b as Default,x as __namedExportsOrder,_ as default};
-//# sourceMappingURL=global-alert.stories-D6HjoAqR.js.map
+//# sourceMappingURL=global-alert.stories-DrOa1YRz.js.map
