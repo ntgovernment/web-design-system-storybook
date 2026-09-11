@@ -8,7 +8,7 @@ import{n as e}from"./chunk-BVpWp9h4.js";import{a as t}from"./directive-helpers-D
     </div>
     ${h}
   </div>
-  `}var f,p,m=e((()=>{i(),o(),u(),f={Info:`info`,Warning:`warning`,Critical:`critical`,"Info-alt":`info-alt`},p={async main(e,t){return`${`<!-- ${JSON.stringify(e,null,2)} -->\n`}<div data-component="global-alerts">${e?.alerts?.length?`<div class="content-area">
+  `}var f,p,m=e((()=>{i(),o(),u(),f={Info:`info`,Warning:`warning`,Critical:`critical`,"Info-alt":`info-alt`},p={async main(e,t){return`<div data-component="global-alerts">${e?.alerts?.length?`<div class="content-area">
             ${e.alerts.map(e=>d(e,t)).join(`
 `)}
           </div>
@@ -117,4 +117,4 @@ import{n as e}from"./chunk-BVpWp9h4.js";import{a as t}from"./directive-helpers-D
     }
   }
 }`,...S.parameters?.docs?.source}}},C=[`Default`]}))();export{S as Default,C as __namedExportsOrder,y as default};
-//# sourceMappingURL=global-alert.stories-ConKmHRd.js.map
+//# sourceMappingURL=global-alert.stories-D8HNsn87.js.map
