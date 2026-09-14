@@ -1,4 +1,4 @@
-import{n as e}from"./chunk-BVpWp9h4.js";var t,n,r;e((()=>{t={title:`CSS Components/Lists`},n={render:()=>`
+import{n as e}from"./chunk-BVpWp9h4.js";var t,n,r,i=e((()=>{t={title:`CSS Components/Lists`},n={render:()=>`
     <table class="story" id="table33779">
   <thead>
     <tr>
@@ -494,5 +494,5 @@ import{n as e}from"./chunk-BVpWp9h4.js";var t,n,r;e((()=>{t={title:`CSS Componen
   </tbody>
 </table>
 \`
-}`,...n.parameters?.docs?.source}}},r=[`Lists`]}))();export{n as Lists,r as __namedExportsOrder,t as default};
-//# sourceMappingURL=lists.stories-CAr3yoGN.js.map
+}`,...n.parameters?.docs?.source}}},r=[`Default`]}));export{t as i,r as n,i as r,n as t};
+//# sourceMappingURL=lists.stories-CxxZ0fOz.js.map

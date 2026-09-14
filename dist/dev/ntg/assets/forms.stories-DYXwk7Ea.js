@@ -24,14 +24,14 @@ import{n as e}from"./chunk-BVpWp9h4.js";var t,n,r;e((()=>{t={title:`CSS Componen
   },
   argsTypes: {
     clearableInputs: {
-      control: 'checkbox'
+      control: "checkbox"
     }
   },
   render(args) {
     const dataClear = args.clearableInputs ? 'data-clear=""' : 'data-wot=""';
     if (dataClear) {
       requestAnimationFrame(() => {
-        window.__ntgds__.run('clearableInputs');
+        window.__ntgds__.run("clearableInputs");
       });
     }
     return /*html*/\`
@@ -62,14 +62,14 @@ import{n as e}from"./chunk-BVpWp9h4.js";var t,n,r;e((()=>{t={title:`CSS Componen
   },
   argsTypes: {
     clearableInputs: {
-      control: 'checkbox'
+      control: "checkbox"
     }
   },
   render(args) {
     const dataClear = args.clearableInputs ? 'data-clear=""' : 'data-wot=""';
     if (dataClear) {
       requestAnimationFrame(() => {
-        window.__ntgds__.run('clearableInputs');
+        window.__ntgds__.run("clearableInputs");
       });
     }
     return /*html*/\`
@@ -94,5 +94,5 @@ import{n as e}from"./chunk-BVpWp9h4.js";var t,n,r;e((()=>{t={title:`CSS Componen
             </form>
         \`;
   }
-}`,...n.parameters?.docs?.source}}},r=[`KitchenSinkSquizCustomForm`]}))();export{n as KitchenSinkSquizCustomForm,r as __namedExportsOrder,t as default};
-//# sourceMappingURL=forms.kitchensink.stories-BjPR0LwO.js.map
+}`,...n.parameters?.docs?.source}}},r=[`SquizFormDemo`]}))();export{n as SquizFormDemo,r as __namedExportsOrder,t as default};
+//# sourceMappingURL=forms.stories-DYXwk7Ea.js.map
