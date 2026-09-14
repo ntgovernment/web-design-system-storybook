@@ -24,7 +24,7 @@ ${t}
         ${g(n)}
         ${_(a)}
         ${v(o)}
-    </footer>`}}})),D,O,k,A,j=e((()=>{D=[{menuTitle:`BULLET`,menuItems:[{url:`https://google.com`,text:`google`},{assetId:`3`,url:`http://nt.gov.au`,text:`asset`}]},{menuTitle:`NONE`,menuType:`none`,menuItems:[{url:`https://google.com`,text:`google`},{assetId:`3`,url:`http://nt.gov.au`,text:`asset`}]},{menuTitle:`ICONS`,menuType:`icon`,menuItems:[{url:`https://google.com`,text:`google`},{url:`http://facebook.com`,text:`asset`},{url:`http://qld.gov.au`,text:`other`}]}],O=[{url:`https://google.com`,text:`google`},{url:`http://facebook.com`,text:`asset`},{url:`http://qld.gov.au`,text:`other`}],k=`hello finalText`,A={menus:D,ancillary:O,finalText:k}}));function M(){document.body.removeEventListener(`click`,N),document.body.addEventListener(`click`,N)}function N(e){e.preventDefault()}var P,F,I,L,R;await e((async()=>{o(),t(),E(),j(),P=a(T.main),F={title:`dxp components/Footer`,parameters:{layout:`fullscreen`}},I=await P.markup(A),L={render:e=>(requestAnimationFrame(M),P(e)),args:A,argTypes:{menus:{control:`object`},ancillary:{control:`object`},finalText:{control:`text`}},parameters:{docs:{source:{code:I,language:`html`,type:`code`}}}},L.parameters={...L.parameters,docs:{...L.parameters?.docs,source:{originalSource:`{
+    </footer>`}}})),D,O,k,A,j=e((()=>{D=[{menuTitle:`BULLET`,menuItems:[{url:`https://google.com`,text:`google`},{assetId:`3`,url:`http://nt.gov.au`,text:`asset`}]},{menuTitle:`NONE`,menuType:`none`,menuItems:[{url:`https://google.com`,text:`google`},{assetId:`3`,url:`http://nt.gov.au`,text:`asset`}]},{menuTitle:`ICONS`,menuType:`icon`,menuItems:[{url:`https://google.com`,text:`google`},{url:`http://facebook.com`,text:`asset`},{url:`http://qld.gov.au`,text:`other`}]}],O=[{url:`https://google.com`,text:`google`},{url:`http://facebook.com`,text:`asset`},{url:`http://qld.gov.au`,text:`other`}],k=`hello finalText`,A={menus:D,ancillary:O,finalText:k}}));function M(){document.body.removeEventListener(`click`,N),document.body.addEventListener(`click`,N)}function N(e){e.preventDefault()}var P,F,I,L,R;await e((async()=>{o(),t(),E(),j(),P=a(T.main),F={title:`dxp components/Footer`,parameters:{noContentArea:!0}},I=await P.markup(A),L={render:e=>(requestAnimationFrame(M),P(e)),args:A,argTypes:{menus:{control:`object`},ancillary:{control:`object`},finalText:{control:`text`}},parameters:{docs:{source:{code:I,language:`html`,type:`code`}}}},L.parameters={...L.parameters,docs:{...L.parameters?.docs,source:{originalSource:`{
   render: args => {
     requestAnimationFrame(supressClick);
     return squiz(args);
@@ -77,4 +77,4 @@ ${t}
     }
   }
 }`,...L.parameters?.docs?.source}}},R=[`Default`]}))();export{L as Default,R as __namedExportsOrder,F as default};
-//# sourceMappingURL=footer.stories-CqojxsXc.js.map
+//# sourceMappingURL=footer.stories-OGxRXdGG.js.map
